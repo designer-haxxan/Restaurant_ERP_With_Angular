@@ -1,0 +1,55 @@
+
+
+    <div class="container alldata">
+    <mat-card style="padding:30px">
+       
+    
+
+        <div>
+            <mat-card-title><h2 style="text-align: center;">Add Restaurant Details</h2></mat-card-title>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant ID</mat-label>
+                    <input matInput placeholder="Restaurant ID" [(ngModel)]="insdata.id">
+                  </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant Name</mat-label>
+                    <input matInput placeholder="Restaurant Name" [(ngModel)]="insdata.name">
+                  </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant Address</mat-label>
+                    <input matInput placeholder="Restaurant Address" [(ngModel)]="insdata.address">
+                  </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant Phone</mat-label>
+                    <input matInput placeholder="Restaurant Phone" [(ngModel)]="insdata.phone">
+                  </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant Description</mat-label>
+                    <input matInput placeholder="Restaurant Description" [(ngModel)]="insdata.description">
+                  </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="field">
+                    <mat-label>Enter Restaurant Location</mat-label>
+                    <input matInput placeholder="Restaurant Location" [(ngModel)]="insdata.location">
+                  </mat-form-field>
+            </div>
+            <div>
+                <a mat-raised-button  color="primary" (click)="insert()">Add Record</a>
+            </div>
+        </div>
+    </mat-card>
+   
+</div>
+
+
+

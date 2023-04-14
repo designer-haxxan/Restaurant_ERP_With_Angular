@@ -1,0 +1,20 @@
+{
+  "restaurantdata": [
+    {
+      "id": 1,
+      "name": "Baba Rich",
+      "address": "Baba Rich",
+      "phone": "0123456789",
+      "description": "Baba Rich",
+      "location": "jhang"
+    },
+    {
+      "id": 2,
+      "name": "Baba Rich",
+      "address": "Baba Rich",
+      "phone": "0123456789",
+      "description": "Baba Rich",
+      "location": "jhang"
+    }
+  ]
+}
